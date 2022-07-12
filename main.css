@@ -43,7 +43,7 @@ body {
     transform: translateX(-50%);
 }
 header {
-    background: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    background: linear-gradient(to left, #23233D, #FEC93F);
     border-radius: 30px 30px 5px 5px;
     display: flex;
     height: 15%;
@@ -62,6 +62,7 @@ header h5 {
     border: solid #fff 1px;
     height: 60%;
     transform: translateX(-50%);
+    background-color: #fff;
 }
 header p {
     font-weight: 400;
@@ -80,12 +81,12 @@ header div {
     transform: translateX(-31%);
 }
 .msg {
-    color: hsl(276, 55%, 52%);
+    color: #23233D;
     font-weight: 400;
     font-size: 12px;
     border-radius: 10px;
     max-width: 60%;
-    background-color: hsla(293, 100%, 63%, 0.144);
+    background-color: #4b4b949f;
     padding: 5px;
     margin: 10px 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.123);
@@ -110,7 +111,7 @@ header div {
     width: fit-content;
 }
 .m7, .m8 {
-    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    background: linear-gradient(to right, #23233D, #FEC93F);
     color: #fff;
     border-radius: 10px 10px 10px 2px;
     min-height: 30px;
@@ -172,7 +173,7 @@ input::placeholder {
     font-size: 3rem;
     font-weight: 500;
     margin-bottom: 10%;
-    color: hsl(271, 36%, 24%);
+    color: #23233D;
 }
 .textos h3 {
     font-size: 1.1rem;
@@ -190,7 +191,7 @@ input::placeholder {
     position: absolute;
     left: -15%;
     top: 0;
-    background: linear-gradient(to bottom left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    background: linear-gradient(to bottom left, #23233D, #FEC93F);
     border-radius: 0 0 50% 50%;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.116);
 }
